@@ -4,11 +4,15 @@ function shoutOut() {
 console.log(shoutOut());
 
 function calculateMultiply(num1, num2) {
-  return num1 * num2
+  hasilPerkalian = num1* num2
+  return hasilPerkalian
 }
-console.log(calculateMultiply(5,6));
+calculateMultiply(5,6);
+console.log(hasilPerkalian);
 
 function processSentence(name, address, age, hobby) {
-  return 'Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', dan saya punya hobby yaitu '+hobby+'!'
+  fullSentence = 'Nama saya '+name+', umur saya '+age+' tahun, alamat saya di '+address+', dan saya punya hobby yaitu '+hobby+'!'
+  return fullSentence
 }
-console.log(processSentence('Agus', 'Jln. Malioboro, Yogjakarta', 30, 'gaming'));
+processSentence('Agus', 'Jln. Malioboro, Yogjakarta', 30, 'gaming');
+console.log(fullSentence);

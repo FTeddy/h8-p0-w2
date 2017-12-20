@@ -5,7 +5,7 @@ var tahun= 1989;
 
 
 switch(bulan) {
-  case 1:   {console.log(String(tanggal)+ ' Januari ' + tahun); break;}
+  case 1:   {console.log(String(tanggal)+' Januari ' + tahun); break;}
   case 2:   {console.log(String(tanggal)+' Febuari ' + String(tahun)); break;}
   case 3:   {console.log(String(tanggal)+' Maret ' + String(tahun)); break;}
   case 4:   {console.log(String(tanggal)+' April ' + String(tahun)); break;}

@@ -1,21 +1,17 @@
+// Pseudocode 1
+// SIMPAN variable 'number1'
+// SIMPAN variable 'number2'
+// HITUNG 'hasil' dengan 'number1' dikali 'number2'
+// TULISKAN 'hasil' perhitungan
 
-console.log('SIMPAN variable A');
-console.log('SIMPAN variable B');
-console.log('HITUNG A dikali B');
-console.log('TULISKAN hasil hitungan');
+//Pseudocode 2
+// SIMPAN kalimat 'motivasi'
+// IF 'motivasi' adalah "SAYA BELAJAR JAVASCRIPT!":
+//    TULISKAN "PASTI BISA" di console
+// ENDIF
 
-var A= 3;
-var B= 13;
-var C;
-C = A * B;
-console.log('Hasil = '+C);
-
-
-console.log('SIMPAN KALIMAT A');
-console.log('IF KALIMAT adalah "SAYA BELAJAR JAVASCRIPT!"');
-console.log('TULISKAN "PASTI BISA"');
-
-var kalimat= 'SAYA BELAJAR JAVASCRIPT!' ;
-if(kalimat == 'SAYA BELAJAR JAVASCRIPT!'){
-  console.log('Pasti Bisa!');
-}
+//Pseudocode 3
+// SIMPAN 'angka habis' 100
+// ULANGI pertambahan 1 dengan 'angka mulai' dari 1 sampai 'angka habis'
+//    TAMPILKAN deret 'angka mulai' yang habis dibagi 3
+// END ULANGI
