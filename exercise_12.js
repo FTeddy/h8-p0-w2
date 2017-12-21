@@ -1,9 +1,9 @@
 //METHOD 1
-function balikString(input){
+function balikString(inputWord){
   // console.log(input.length)
   var output=''
   for(var index=input.length-1; index>=0; index--){
-    output = output + input[index]
+    output = output + inputWord[index] //insert letters from input with reversed index no. as string
   }
   return output
 }
@@ -14,14 +14,14 @@ console.log(balikString('Hello World!'));
 //index = length - 1
 
 //METHOD 2
-function balikString(input){
+function balikString(inputWord){
   // console.log(input.length)
   var output_array=[]
   var result
   for(var index=input.length-1; index>=0; index--){
-    output_array.push(input[index])
+    output_array.push(inputWord[index]) //insert letters from input as array in reverse index
   }
-  result=output_array.join('')
+  result=output_array.join('') //join array as string
   return result
 }
 
