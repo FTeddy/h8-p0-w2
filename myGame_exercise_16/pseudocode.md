@@ -1,12 +1,12 @@
 ```
-//#############################################################
+################################################################################
 player vs monster in a arena
 10 rounds
 Enter your player Name
 current version is automatic combat and resolution
 
 
-//############ COMMON VARIABLES ###############################
+############## COMMON VARIABLES ################################
 set Class array
 	'Saber','Archer','Lancer','Caster','Assasin','Rider','Beserker'
 set variables
@@ -14,7 +14,7 @@ set variables
 	turn count
 
 
-//############ PLAYER VARIABLES ################################
+############## PLAYER VARIABLES ################################
 set player name 'Jones'
 set variables :
 	player class
@@ -66,7 +66,7 @@ function player actions
 
 
 
-//############ MONSTER VARIABLES ##############################
+############## MONSTER VARIABLES ##############################
 set monster name list array
 	'Werewolf', 'Imp', 'Automata', 'Orc', 'Wyvern', 'Gorgon', 'Dragon', 'Raptor', 'Elemental Golem', 'Risen Dead'
 set variables :
@@ -131,7 +131,7 @@ function monster actions
 	end else
 
 
-//############ CLASS VARIABLES ################################
+############## CLASS VARIABLES ################################
 function for player class effect
 	Switch with the input playerClass
 		case 'Saber'	: calculate playerATK by 1.3, playerDEF by 1.0,break
@@ -157,7 +157,7 @@ function for monster class effect
 	end switch
 
 
-//############ SET PLAYER STATS ###############################
+############## SET PLAYER STATS ###############################
 if player name is empty or not a string\
 	display 'please enter your name
 end if
