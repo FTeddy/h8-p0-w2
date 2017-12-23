@@ -1,5 +1,5 @@
+'''
 //#############################################################
-
 player vs monster in a arena
 10 rounds
 Enter your player Name
@@ -222,3 +222,4 @@ else
 			display player has won the game
 	end else
 end else
+'''
