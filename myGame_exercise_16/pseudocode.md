@@ -1,4 +1,4 @@
-'''
+```
 //#############################################################
 player vs monster in a arena
 10 rounds
@@ -215,11 +215,10 @@ else
 				display the end., break loop
 			display current player/monster HP
 		end turn count loop
-
 		if boss battle win condition is false
 			display player has died
 		else
 			display player has won the game
 	end else
 end else
-'''
+```
